@@ -7,7 +7,7 @@
     <Name>BITCORNDb</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{2433d9d0-00e4-4fd2-b2fb-a9de7b5af041}</ProjectGuid>
+    <ProjectGuid>{eaddd618-7553-4139-a6dc-d6b2541cb3c5}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
