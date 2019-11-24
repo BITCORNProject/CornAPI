@@ -8,6 +8,7 @@ namespace CornAPI.Models
 {
     public class User
     {
+        CX25qtQTXgfSM3wbr9heMBZbhYY6tUAaJJ
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string Auth0Id { get; set; }
@@ -17,9 +18,11 @@ namespace CornAPI.Models
         public string Twitterid { get; set; }
         public string Redditid { get; set; }
         public string TwitchUsername { get; set; }
+
         public string Cornaddy { get; set; }
         public int Walletserver { get; set; }
         public decimal Balance { get; set; }
+
         public string Level { get; set; }
         public string Avatar { get; set; }
         public string Subtier { get; set; }
