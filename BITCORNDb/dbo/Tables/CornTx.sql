@@ -1,10 +1,11 @@
-﻿CREATE TABLE [dbo].[CornTransaction]
+﻿CREATE TABLE [dbo].[CornTx]
 (
-	[Id] INT NOT NULL PRIMARY KEY, 
-    [Platform] VARCHAR(50) NULL, 
-    [TxType] NVARCHAR(50) NULL, 
-    [Amount] NUMERIC(19, 8) NULL, 
-    [SenderId] VARCHAR(100) NULL, 
-    [ReceiverId] VARCHAR(100) NULL, 
-    [Timestamp] DATETIME NULL
+	[CornTxId] INT NOT NULL PRIMARY KEY, 
+    [Platform] VARCHAR(50) NULL DEFAULT null, 
+    [TxType] VARCHAR(50) NULL DEFAULT null, 
+    [Amount] NUMERIC(19, 8) NULL DEFAULT null, 
+    [SenderId] VARCHAR(100) NULL DEFAULT null, 
+    [ReceiverId] VARCHAR(100) NULL DEFAULT null, 
+    [Timestamp] DATETIME NULL DEFAULT null, 
+    [BlockchainTxId] NVARCHAR(100) NULL DEFAULT null
 )

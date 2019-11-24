@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[WalletIndex]
 (
 	[Id] INT NOT NULL PRIMARY KEY, 
-    [Index] INT NULL
+    [Index] INT NULL DEFAULT 1
 )
