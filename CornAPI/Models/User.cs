@@ -1,31 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CornAPI.Models
 {
-    public class User
+    public partial class User
     {
-        CX25qtQTXgfSM3wbr9heMBZbhYY6tUAaJJ
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
-        public string Auth0Id { get; set; }
-        public string Auth0Nickname { get; set; }
-        public string Twitchid { get; set; }
-        public string Discordid { get; set; }
-        public string Twitterid { get; set; }
-        public string Redditid { get; set; }
-        public string TwitchUsername { get; set; }
-
-        public string Cornaddy { get; set; }
-        public int Walletserver { get; set; }
-        public decimal Balance { get; set; }
-
+        public int UserId { get; set; }
         public string Level { get; set; }
+        public string Username { get; set; }
         public string Avatar { get; set; }
-        public string Subtier { get; set; }
-       
+
+        public virtual UserIdentity UserIdentity { get; set; }
+        public virtual UserStat UserStat { get; set; }
+        public virtual UserWallet UserWallet { get; set; }
     }
 }

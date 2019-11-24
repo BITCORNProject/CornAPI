@@ -1,21 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CornAPI.Models
 {
-    public class UserStat
+    public partial class UserStat
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public string Id { get; set; }
         public int UserId { get; set; }
-        public int? Rains { get; set; }
-        public int? Rainedon { get; set; }
-        public int? Tips { get; set; }
-        public decimal? Tiptotal { get; set; }
-        public decimal? Raintotal { get; set; }
-        public decimal? Rainontotal { get; set; }
+        public int? Tipped { get; set; }
+        public decimal? TippedTotal { get; set; }
+        public decimal? TopTiped { get; set; }
+        public int? Tip { get; set; }
+        public decimal? TipTotal { get; set; }
+        public decimal? TopTip { get; set; }
+        public int? Rained { get; set; }
+        public decimal? RainTotal { get; set; }
+        public decimal? TopRain { get; set; }
+        public int? RainedOn { get; set; }
+        public decimal? RainedOnTotal { get; set; }
+        public decimal? TopRainedOn { get; set; }
+
+        public virtual User User { get; set; }
     }
 }

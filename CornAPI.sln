@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CornAPI", "CornAPI\CornAPI.csproj", "{E7E819C8-9A8A-4FA1-BEAC-9FC75FDDA5CE}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BITCORNDb", "..\..\..\Users\jason\Source\Repos\CornAPI\BITCORNDb\BITCORNDb.sqlproj", "{2433D9D0-00E4-4FD2-B2FB-A9DE7B5AF041}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BITCORNDb", "BITCORNDb\BITCORNDb.sqlproj", "{EADDD618-7553-4139-A6DC-D6B2541CB3C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +17,12 @@ Global
 		{E7E819C8-9A8A-4FA1-BEAC-9FC75FDDA5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7E819C8-9A8A-4FA1-BEAC-9FC75FDDA5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7E819C8-9A8A-4FA1-BEAC-9FC75FDDA5CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2433D9D0-00E4-4FD2-B2FB-A9DE7B5AF041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2433D9D0-00E4-4FD2-B2FB-A9DE7B5AF041}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2433D9D0-00E4-4FD2-B2FB-A9DE7B5AF041}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{2433D9D0-00E4-4FD2-B2FB-A9DE7B5AF041}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2433D9D0-00E4-4FD2-B2FB-A9DE7B5AF041}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2433D9D0-00E4-4FD2-B2FB-A9DE7B5AF041}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EADDD618-7553-4139-A6DC-D6B2541CB3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EADDD618-7553-4139-A6DC-D6B2541CB3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EADDD618-7553-4139-A6DC-D6B2541CB3C5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EADDD618-7553-4139-A6DC-D6B2541CB3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EADDD618-7553-4139-A6DC-D6B2541CB3C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EADDD618-7553-4139-A6DC-D6B2541CB3C5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
